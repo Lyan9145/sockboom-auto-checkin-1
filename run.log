@@ -586,3 +586,11 @@ there was no Content-Length specified.
 <HR>
 </BODY>
 
+2020-12-25 20:14:15 - <html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
