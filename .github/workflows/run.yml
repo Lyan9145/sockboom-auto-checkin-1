@@ -26,10 +26,10 @@ jobs:
       uses: actions/checkout@master
     - name: Test Api #Api调用
       env:
-        SESSION: ${{ secrets.SESSION }}
+        TOKEN: ${{ secrets.TOKEN }}
       run: | 
         echo -n `date +%Y-%m-%d\ %H:%M:%S`\ -\ >> ./run.log 
-        curl https://api.sockboom.cc/client/checkin?token="$SESSION" >> ./run.log
+        curl https://api.sockboom.cc/client/checkin?token=$TOKEN >> ./run.log
         echo >> ./run.log
         tail run.log #避免日志上传失败丢失日志
     - name: Commit #上传日志到仓库
