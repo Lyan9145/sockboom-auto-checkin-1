@@ -527,3 +527,11 @@
 2021-04-21 02:26:56 - {"success":1,"traffic":96061055}
 2021-04-21 08:49:41 - {"success":0,"traffic":""}
 2021-04-21 17:16:54 - {"success":0,"traffic":""}
+2021-04-22 02:27:52 - <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
